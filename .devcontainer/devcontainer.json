@@ -1,0 +1,17 @@
+{
+    "name": "doc",
+    "dockerComposeFile": "${localWorkspaceFolder}/doc/docker-compose.yml",
+    "service": "main",
+    "workspaceFolder": "/usr/project/doc",
+    "customizations": {
+        "vscode": {
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash"
+            },
+            "extensions": [
+                "ms-python.python"
+            ]
+        }
+    },
+    "remoteUser": "root"
+}
